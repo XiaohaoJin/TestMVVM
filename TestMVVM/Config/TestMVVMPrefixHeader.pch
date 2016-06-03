@@ -1,0 +1,32 @@
+//
+//  TestMVVMPrefixHeader.pch
+//  MVVMTest
+//
+//  Created by 金晓浩 on 16/6/2.
+//  Copyright © 2016年 XiaoHaoJin. All rights reserved.
+//
+
+#ifndef TestMVVMPrefixHeader_pch
+#define TestMVVMPrefixHeader_pch
+
+#import "AppMacro.h"
+#import "NotificationMacro.h"
+#import "VendorMacro.h"
+#import "UtilsMacro.h"
+
+#import "AppDelegate.h"
+#import "JJNetworkStatusManager.h"
+#import "NetworkApi.h"
+#import "JJNetworkEntity.h"
+
+#import "UIColor+Helper.h"
+#import "UILabel+Helper.h"
+#import "NSString+Helper.h"
+#import "NSObject+JJCoding.h"
+#import "JJLoadingView.h"
+#import "YYModel.h"
+#import "Masonry.h"
+#import "UIImageView+YYWebImage.h"
+#import "MJRefresh.h"
+
+#endif /* TestMVVMPrefixHeader_pch */
